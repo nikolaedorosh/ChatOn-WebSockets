@@ -1,0 +1,31 @@
+{
+  "name": "chaton-websockets",
+  "version": "1.0.0",
+  "description": "WebSockets",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikolaedorosh/ChatOn-WebSockets.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikolaedorosh/ChatOn-WebSockets/issues"
+  },
+  "homepage": "https://github.com/nikolaedorosh/ChatOn-WebSockets#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-mongo": "^4.4.0",
+    "cross-env": "^7.0.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "hbs": "^4.1.1",
+    "mongoose": "^5.12.1",
+    "ws": "^7.4.4"
+  }
+}

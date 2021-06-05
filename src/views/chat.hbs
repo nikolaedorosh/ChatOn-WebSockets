@@ -1,0 +1,21 @@
+<div class="container d-flex flex-column align-items-center">
+  <div data-chat class="chat w-50">
+    {{#if allMessages}}
+    {{#each allMessages}}
+    <div class="message {{#if this.itself}} my-message {{/if}}">
+      <span class="userName">{{this.user.name}}:</span>
+      <span>{{this.text}}</span>
+    </div>
+    {{/each}}
+    {{/if}}
+
+  </div>
+  <form name="chat" class="d-flex justify-content-center align-items-center my-3">
+    <div>
+      <input type="text" name="message" placeholder="Text here..." class="form-control" id="exampleInputEmail1"
+        aria-describedby="emailHelp">
+    </div>
+    <button type="submit" class="btn btn-primary mx-2">Submit</button>
+  </form>
+
+</div>

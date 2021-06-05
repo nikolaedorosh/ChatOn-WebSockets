@@ -1,0 +1,39 @@
+body {
+  background: whitesmoke;
+}
+
+.chat {
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  background: white;
+  padding: 1rem;
+  min-height: 300px;
+  max-height: 600px;
+  overflow-y: scroll;
+  display: flex;
+  flex-flow: column;
+}
+
+.message {
+  margin: .5rem 0;
+  background: whitesmoke;
+  padding: .5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-width: 70%;
+  width: fit-content;
+  
+}
+
+.userName {
+  opacity: .5;
+}
+
+.my-message {
+  align-self: flex-end;
+}
+
+.greeting {
+  opacity: 0.5;
+  text-align: center;
+}
